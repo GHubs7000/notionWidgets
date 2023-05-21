@@ -1,0 +1,21 @@
+<!-- Barchart Chart Widget Begin -->
+    <div id="barchartWidget_f71350eb"></div>
+    <script type="text/javascript" src="https://demo.barchart.com/chart-widget/bw.js"></script>
+    <script type="text/javascript">
+        Barchart.widget({
+                apiKey: "YOUR_API_KEY", // required only for localhost testing
+                credentials: { username: "<YOUR_USERNAME>", password: "<YOUR_PASSWORD>" },
+                width: 960,
+                height: 540,
+                symbol: "ESM23",
+                aggregation: 8,
+                theme: "DARK",
+                style: 8,
+                showSideToolbar: false,
+                showMainToolbar: false,
+                showFootToolbar: false,
+                studies: ["COTLC","COTFTR"],
+                elementId: "barchartWidget_f71350eb",
+            });
+    </script>
+<!-- Barchart Chart Widget End -->
