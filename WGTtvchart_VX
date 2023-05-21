@@ -1,5 +1,11 @@
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WIDGET Tradingview Chart - VX Futures (Investing.com)</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <div class="tradingview-widget-container">
   <div id="tradingview_b811a"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
   <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
@@ -25,4 +31,7 @@
   );
   </script>
 </div>
-<!-- TradingView Widget END -->
+  </body>
+</html>
+
+
