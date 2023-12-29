@@ -7,30 +7,42 @@
   <body>
   <!-- TradingView Widget BEGIN -->
 <div class="tradingview-widget-container">
-  <div id="tradingview_84612"></div>
+  <div class="tradingview-widget-container__widget"></div>
   <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-  <script type="text/javascript">
-  new TradingView.widget(
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
   {
-  "width": 680,
-  "height": 480,
-  "symbol": "CAPITALCOM:VIX",
-  "interval": "D",
-  "timezone": "Europe/London",
-  "theme": "dark",
-  "style": "3",
-  "locale": "en",
-  "toolbar_bg": "#f1f3f6",
-  "enable_publishing": false,
-  "hide_top_toolbar": true,
-  "hide_legend": true,
-  "withdateranges": true,
-  "save_image": false,
-  "details": true,
-  "container_id": "tradingview_84612"
+  "symbols": [
+    {
+      "proName": "FOREXCOM:SPXUSD",
+      "title": "S&P 500"
+    },
+    {
+      "proName": "FOREXCOM:NSXUSD",
+      "title": "US 100"
+    },
+    {
+      "proName": "FX_IDC:EURUSD",
+      "title": "EUR to USD"
+    },
+    {
+      "description": "VX Futures",
+      "proName": "CBOE:VX1!"
+    },
+    {
+      "description": "DXY",
+      "proName": "TVC:DXY"
+    },
+    {
+      "description": "RTY",
+      "proName": "CME_MINI:RTY1!"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "adaptive",
+  "colorTheme": "dark",
+  "locale": "en"
 }
-  );
   </script>
 </div>
 <!-- TradingView Widget END -->
