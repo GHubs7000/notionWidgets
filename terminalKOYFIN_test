@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WIDGET KoyFin Terminal - Title</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+  <!-- Widget Begin -->
+    <iframe width="600" height="420" src="https://app.koyfin.com/share/0df8ecfb28/simple" frameBorder="0"></iframe>
+  <!-- Widget End -->
+  </body>
+</html>
